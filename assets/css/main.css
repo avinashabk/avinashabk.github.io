@@ -2060,25 +2060,22 @@ body.theme-alt .theme-toggle {
 }
 
 
-/* Fix project images overflowing */
-.project-image img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-    border-radius: 10px;
-}
-
+/* Fix project images overflowing the article container */
 .project-image {
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 1rem;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
+.project-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
 
 .project-image img {
-    width: 100%;
-    max-height: 420px;
-    object-fit: cover;
-    border-radius: 10px;
+  max-height: 420px;
+  object-fit: cover;
 }
