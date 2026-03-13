@@ -2075,18 +2075,7 @@ body.theme-alt .theme-toggle {
   object-fit: contain;
 }
 
-.project-image img {
-  max-height: 420px;
-  object-fit: cover;
-}
 
-.exp-image {
-  margin-top: 1.5rem;
-}
-
-.cta-box {
-  margin-bottom: 1.5rem;
-}
 
 
 
